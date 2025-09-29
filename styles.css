@@ -1,0 +1,103 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-image:linear-gradient(to right, #996A71, #FFB5C0) ;
+}
+header{
+  text-align: center;
+  border-bottom: 1px solid beige;
+}
+header > h1{
+  color: #fff;
+  text-shadow:6px 3px 4px black
+}
+header p{
+  color: #fff;
+}
+#perfil {
+  display:flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 10px 10px 10px #333;
+  max-width: 900px;
+}
+.informacoes {
+  background-color: #ffe4ec; 
+  padding: 10px;
+  border-radius: 15px;
+}
+#contato li{
+  display:flex;
+  align-items: center;
+}
+footer {
+  color: white;
+  text-align: center;
+  border-top: 1px solid beige;
+  margin-top: 120px;
+}
+ul li{
+  list-style: none;
+}
+#contato a{
+  text-decoration: none;
+}
+#contato a:hover{
+  text-decoration: underline;
+  color: maroon;
+}
+
+@media (max-width: 768px) {
+ header{
+  font-size: 14px;
+ }
+  #perfil {
+    display: block;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+
+  }
+  #perfil img {
+    height: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+  .foto-perfil{
+    width: 200px;
+  }
+  #hobbies{
+    text-align: center;
+  }
+  #hobbies ul{
+    padding: 0;
+  }
+  .informacoes{
+    margin-top: 20px;
+  }
+  footer{
+    font-size: small;
+  }
+  #contato{
+    height: auto;
+    text-align: center;
+  }
+  #contato h3{
+    margin-top: 50px;
+  }
+  #contato ul{
+    padding: 0;
+  }
+  #contato li img{
+    margin-top: 0;
+  }
+  #contato li{
+    justify-content: center;
+  }
+}
+
